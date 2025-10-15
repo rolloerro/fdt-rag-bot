@@ -1,0 +1,17 @@
+cat <<EOF > .gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual env
+venv/
+.env
+.env.*
+*.env
+
+# System
+.DS_Store
+EOF
